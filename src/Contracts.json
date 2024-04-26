@@ -1,0 +1,83 @@
+[
+    {
+      "contractID": "2020/34",
+      "contractName": "ADV000123456",
+      "contractStatus": "Ended",
+      "contractParties": "New Company",
+      "contractGroup": "Contract Client Company",
+      "contractType": "Full Time"
+    },
+    {
+      "contractID": "2021/56",
+      "contractName": "ADV000789012",
+      "contractStatus": "Active",
+      "contractParties": "ABC Corp",
+      "contractGroup": "Contract Vendor Company",
+      "contractType": "Part Time"
+    },
+    {
+      "contractID": "2022/78",
+      "contractName": "ADV000345678",
+      "contractStatus": "Active",
+      "contractParties": "XYZ Inc",
+      "contractGroup": "Contract Partner Company",
+      "contractType": "Temporary"
+    },
+    {
+      "contractID": "2023/90",
+      "contractName": "ADV000901234",
+      "contractStatus": "Active",
+      "contractParties": "Old Company",
+      "contractGroup": "Contract Supplier Company",
+      "contractType": "Permanent"
+    },
+    {
+      "contractID": "2024/12",
+      "contractName": "ADV000567890",
+      "contractStatus": "Active",
+      "contractParties": "Another Company",
+      "contractGroup": "Contract Customer Company",
+      "contractType": "Internship"
+    },
+    {
+      "contractID": "2020/34",
+      "contractName": "ADV000123456",
+      "contractStatus": "Ended",
+      "contractParties": "New Company",
+      "contractGroup": "Contract Client Company",
+      "contractType": "Full Time"
+    },
+    {
+      "contractID": "2021/12",
+      "contractName": "ADV000789012",
+      "contractStatus": "Active",
+      "contractParties": "Old Company",
+      "contractGroup": "Contract Vendor Company",
+      "contractType": "Part Time"
+    },
+    {
+      "contractID": "2019/56",
+      "contractName": "ADV000345678",
+      "contractStatus": "Ended",
+      "contractParties": "Another Company",
+      "contractGroup": "Contract Partner Company",
+      "contractType": "Temporary"
+    },
+    {
+      "contractID": "2022/78",
+      "contractName": "ADV000901234",
+      "contractStatus": "Active",
+      "contractParties": "XYZ Corp",
+      "contractGroup": "Contract Supplier Company",
+      "contractType": "Permanent"
+    },
+    {
+      "contractID": "2023/90",
+      "contractName": "ADV000567890",
+      "contractStatus": "Active",
+      "contractParties": "ABC Inc",
+      "contractGroup": "Contract Customer Company",
+      "contractType": "Internship"
+    }
+  ]
+  

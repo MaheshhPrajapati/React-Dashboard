@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
+}
+
+body {
+  background: #eff7f7 0% 0% no-repeat padding-box;
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 400;
+}
+
+/* sidebar CSS */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebarComponent {
+  background-color: #034348;
+  margin: 0;
+  padding: 0;
+  width: 80px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  transition: all 0.5s ease;
+  z-index: 1;
+  box-shadow: 6px 6px 10px #080e151f;
+}
+
+.sidebarComponent:hover {
+  width: 220px;
+  transition: all 0.5s ease;
+  box-shadow: 10px 10px 10px #080e151f;
+}
+
+.sidebarComponent a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  display: none;
+  margin-left: 0.5rem;
+}
+
+.top-icon {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.sidebarComponent:hover a {
+  display: block;
+}
+
+.sidebarComponent:hover wrapper {
+  justify-content: space-between;
+}
+
+.icon-tag {
+  height: 2.7vh;
+  fill: white;
+  stroke: red;
+  border-color: white;
+  stroke-width: 2px;
+}
+
+.sidebar-links {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  font-size: 0.7rem;
+}
+
+.sidebar-item {
+  padding: 15px;
+}
+.last-icon {
+  position: absolute;
+  bottom: 2rem;
+}
+.last-icon img {
+  border-radius: 50%;
+}
+
+/* CSS for Quick Items */
+div.row {
+  width: 80vw;
+}
+
+div.upperDiv {
+  margin-top: 3%;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 6px 6px 10px #080e151f;
+  border-right: 0.5rem solid #eff7f7;
+  border-left: 0.5rem solid #eff7f7;
+  border-radius: 4%;
+}
+
+div.upperDiv:hover {
+  box-shadow: 10px 10px 10px #080e151f;
+}
+
+.provide-padding {
+  padding: 1.5vh 0;
+}
+
+.upperDiv .title {
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-align: left;
+  align-items: flex-start;
+  text-transform: capitalize;
+}
+.upperDiv .body {
+  font-weight: 800;
+  color: 0C1014;
+  text-align: left;
+  margin: 0;
+}
+.quickLink-Icons {
+  width: 4.5vw;
+}
+
+/* client name */
+.client-name {
+  padding-left: 10vw;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+/* Content Container CSS */
+
+label {
+  margin-bottom: 0;
+}
+
+input[type="radio"]:checked + label {
+  color: #026c6f;
+}
+
+.inner-content-wrapper {
+  width: 80%;
+  background-color: #fff;
+  border-radius: 0.5%;
+}
+.outer-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.optionselector {
+  padding: 1rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 5px;
+  margin-left: 1rem;
+  width: 0.5rem;
+}
+
+.table {
+}
+td.Content-columns {
+  font-size: 0.75rem;
+}
+
+.tableRow:nth-child(even) {
+  background: #f8faf9 0% 0% no-repeat padding-box;
+}
+.tableRow:nth-child(odd) {
+  background: #f8faf9 0% 0% no-repeat padding-box;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #fff 0% 0% no-repeat padding-box;
+}
+td.contractID {
+  color: #026c6f;
+  font-weight: 700;
+}
+.contractName {
+  font-weight: 700;
+}
+.table-bordered {
+  border: 0px solid #fff;
+}
+.table-bordered thead td,
+.table-bordered thead th {
+  border-bottom-width: 0px;
+}
+
+thead tr {
+  color: #0a0e12;
+  font-weight: 700;
+}
+
+.table-bordered td,
+.table-bordered th {
+  border: none;
+}
+.table-bordered {
+}
+
+.drop-down-image {
+  width: 20px;
+}
+
+/* Tablets */
+@media (max-width: 1023px) {
+  .upperDiv .title {
+    font-size: 0.7rem;
+  }
+}
+
+/* HD laptops */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .container {
+    font-size: 0.7rem;
+  }
+  .sidebarComponent {
+    width: 60px;
+  }
+  .wrapper {
+    font-size: 0.7rem;
+    padding: 10px 15px;
+  }
+  .top-icon {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .upperDiv .title {
+    font-size: 0.7rem;
+  }
+  .upperDiv .body {
+    margin: 5px 0px 2px;
+  }
+  .provide-padding {
+    padding: 1vh 0;
+  }
+  div.row {
+    width: 80vw;
+  }
+  .icon-tag {
+    width: 3vh;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1200px;
+    display: table;
+  }
+}

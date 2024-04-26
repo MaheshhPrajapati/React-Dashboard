@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "icon": "icons/dashboard.png",
+    "content": "overview"
+  },
+  {
+    "id": 2,
+    "icon": "icons/activity.png",
+    "content": "list of contracts"
+  },
+  {
+    "id": 3,
+    "icon": "icons/legal.png",
+    "content": "legal"
+  },
+  {
+    "id": 4,
+    "icon": "icons/search copy.png",
+    "content": "Operational Search"
+  },
+  {
+    "id": 5,
+    "icon": "icons/money.png",
+    "content": "Financial"
+  },
+  {
+    "id": 6,
+    "icon": "icons/checklist.png",
+    "content": "Activities"
+  }
+]
